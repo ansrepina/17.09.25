@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileLibraryew", "MobileLibraryew\MobileLibraryew.csproj", "{E9BB8979-A03F-45A1-9357-FCEBF9E1E878}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileLibraryew.UnitTests", "MobileLibrary.UnitTests\MobileLibraryew.UnitTests.csproj", "{657586C4-0629-4555-BC0A-608C0F7447EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E9BB8979-A03F-45A1-9357-FCEBF9E1E878}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9BB8979-A03F-45A1-9357-FCEBF9E1E878}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9BB8979-A03F-45A1-9357-FCEBF9E1E878}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9BB8979-A03F-45A1-9357-FCEBF9E1E878}.Release|Any CPU.Build.0 = Release|Any CPU
+		{657586C4-0629-4555-BC0A-608C0F7447EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{657586C4-0629-4555-BC0A-608C0F7447EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{657586C4-0629-4555-BC0A-608C0F7447EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{657586C4-0629-4555-BC0A-608C0F7447EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B23F9E0A-CB33-4629-B60C-2E83BE68A16B}
+	EndGlobalSection
+EndGlobal
