@@ -2,12 +2,31 @@ using System;
 
 namespace MobileLibraryew
 {
-    public class Subscriber
+    public class Subscriber : IComparable<Subscriber>
     {
+
         public string Name { get; set; }
         public string Surname { get; set; }
         public string PhoneNumber { get; set; }
         public readonly string ContractNumber;
+
+        public Subscriber(string surname, string name, string phoneNumber)
+        {
+            Surname = surname;
+            Name = name;
+            PhoneNumber = phoneNumber;
+        }
+
+        public int CompareTo(Subscriber other)
+        {
+            if (other == null) return 1;
+
+            int lastNameComparison = string.Compare(Surname, other.Surname);
+            if (lastNameComparison != 0)
+                return lastNameComparison;
+
+            return string.Compare(Name, other.Name);
+        }
 
         public string TariffName { get; set; }
         public PaymentType PaymentKind { get; set; }
